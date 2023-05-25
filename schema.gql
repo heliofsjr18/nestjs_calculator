@@ -1,0 +1,11 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input HealthInput {
+  name: String
+}
+
+type Query {
+  health(data: HealthInput!): String!
+}
